@@ -1,0 +1,16 @@
+import standard.io as io;
+import standard.utilities;
+
+# Iterate through a range with all numbers from 0 to 100.
+foreach (n in Range.new(0, 100)) {
+    match (0) {  
+        n % 15 -> io.print("FizzBuzz!"); # Single statement
+        n % 5 -> { 
+            io.print("Buzz."); # Block statement 
+        }; 
+        
+        n % 3 -> io.print("Fizz."); 
+        
+        _ -> io.print(n); # Default case
+    }
+}
