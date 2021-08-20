@@ -56,6 +56,7 @@
       <Content Include="Examples\fibonacci.dracon" />
       <Content Include="Examples\fizzbuzz.dracon" />
       <Content Include="Examples\hello-world.dracon" />
+      <Content Include="Examples\palindrome.dracon" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

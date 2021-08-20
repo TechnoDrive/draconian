@@ -1,0 +1,9 @@
+﻿import standard.io as io;
+
+fun isPalindrome(text: string) {
+    return text == text.characters.reverse().join();
+}
+
+io.print(isPalindrome(io.readLine()));
+
+
