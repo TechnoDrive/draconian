@@ -51,6 +51,7 @@
     </ItemGroup>
     <ItemGroup>
       <Content Include=".gitignore" />
+      <Content Include="Examples\coin-flipper.dracon" />
       <Content Include="Examples\fibonacci.dracon" />
       <Content Include="Examples\fizzbuzz.dracon" />
       <Content Include="Examples\hello-world.dracon" />
