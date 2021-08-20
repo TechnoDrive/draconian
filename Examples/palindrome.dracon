@@ -1,6 +1,6 @@
 ﻿import standard.io as io;
 
-fun isPalindrome(text: string) {
+fun isPalindrome(text: string): boolean {
     return text == text.characters.reverse().join();
 }
 

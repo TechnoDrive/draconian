@@ -1,6 +1,6 @@
 ﻿import standard.io as io;
 
-fun collatz(n: number) {
+fun collatz(n: number): number {
     let count = 0;
     
     while (n != 1) {

@@ -1,6 +1,6 @@
 import standard.io as io;
 
-fun fibonacci(n: number) {
+fun fibonacci(n: number): number {
     if (n < 2) {
         return n;
     } else {
