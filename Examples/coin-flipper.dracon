@@ -5,6 +5,6 @@ import standard.collections;
 io.print("> ", false);
 
 while (io.readLine() == "flip") {
-    io.print(random.from(Array.of("heads", "tails")));
+    io.print(random.from(["heads", "tails"]);
     io.print("> ", false);
 }
