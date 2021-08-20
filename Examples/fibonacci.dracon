@@ -1,8 +1,8 @@
 import standard.io as io;
 
-fun fibonacci(num) {
-    if (num < 2) {
-        return num;
+fun fibonacci(n: number) {
+    if (n < 2) {
+        return n;
     } else {
         return fibonacci(num - 1) + fibonacci(num - 2);
     }
