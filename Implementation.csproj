@@ -40,6 +40,7 @@
     <ItemGroup>
         <Compile Include="Compiler\Compiler.cs" />
         <Compile Include="Language\Draconian.cs" />
+        <Compile Include="Language\Location.cs" />
         <Compile Include="Lexer\Lexer.cs" />
         <Compile Include="Lexer\Token\Token.cs" />
         <Compile Include="Lexer\Token\TokenType.cs" />
