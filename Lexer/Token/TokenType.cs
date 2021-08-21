@@ -1,5 +1,10 @@
 ﻿namespace Implementation.Lexer.Token {
     public enum TokenType {
+        Comment,
+        Identifier,
+        Number,
+        String,
+        
         Plus,
         Minus,
         Mult,
@@ -16,14 +21,16 @@
         GreaterThan,
         
         NotEqual,
-        DoubleEqual,
+        EqualEqual,
         LessThanEqual,
         GreaterThanEqual,
 
-        Comment,
-        Identifier,
-        Number,
-        String,
+        LeftParen,
+        LeftBrace,
+        LeftBracket,
+        RightParen,
+        RightBrace,
+        RightBracket,
         
         Abstract,
         Pub,
@@ -42,12 +49,7 @@
         As,
         Import,
         Export,
-        
-        LeftParen,
-        LeftBrace,
-        LeftBracket,
-        RightParen,
-        RightBrace,
-        RightBracket,
+
+        EndOfFile
     }
 }
