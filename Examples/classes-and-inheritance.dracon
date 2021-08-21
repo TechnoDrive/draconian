@@ -1,0 +1,24 @@
+﻿import standard.io as io;
+
+abstract class Animal {
+    pub age: number;
+    
+    pub makeAnimalSound();
+}
+
+class Duck : Animal {
+    pub Duck(parent.age: number);
+    
+    pub makeAnimalSound() {
+        io.print("quacc.");
+    }
+}
+
+class Dog : Animal {
+    pub Dog(parent.age: number);
+    
+    pub makeAnimalSound() {
+        io.print("woof.");
+    }
+}
+
