@@ -43,6 +43,8 @@
         <Compile Include="Language\Location.cs" />
         <Compile Include="Lexer\Lexer.cs" />
         <Compile Include="Lexer\Token\Token.cs" />
+        <Compile Include="Lexer\Token\TokenDef.cs" />
+        <Compile Include="Lexer\Token\TokenMatch.cs" />
         <Compile Include="Lexer\Token\TokenType.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
